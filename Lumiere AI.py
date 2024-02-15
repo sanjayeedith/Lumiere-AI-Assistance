@@ -37,7 +37,7 @@ def get_audio():
             print(said)
             guy = said
 
-            if "Jack" in said:
+            if "lumiere" in said:
                 new_string = said.replace("Jack", "")
                 new_string = new_string.strip()
                 completion = openai.Completion.create(
